@@ -2614,7 +2614,7 @@ function Kavo.CreateLib(kavName, themeList)
 		    -- Additional properties for TextBox
 		    label.ClearTextOnFocus = false
 		    label.Selectable = true
-		    label.Editable = false
+		    label.TextEditable = false
 		
 		    UICorner.CornerRadius = UDim.new(0, 4)
 		    UICorner.Parent = label
